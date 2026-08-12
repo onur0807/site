@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onur Web Sitesi</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #111827, #2563eb);
+            color: white;
+        }
+
+        .card {
+            width: 90%;
+            max-width: 600px;
+            padding: 50px 30px;
+            text-align: center;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            opacity: 0.85;
+            line-height: 1.6;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 10px;
+            background: white;
+            color: #2563eb;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>Merhaba 👋</h1>
+        <p>
+            Bu benim basit web sitem.
+            Şu anda Vercel üzerinde yayınlanıyor.
+        </p>
+
+        <button onclick="alert('Site çalışıyor!')">
+            Test Et
+        </button>
+    </div>
+
+</body>
+</html>
